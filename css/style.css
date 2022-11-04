@@ -1,0 +1,292 @@
+@import 'fonts.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'arial' ;
+    background: #e3e3e3;
+}
+
+header{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background: url(../img/Heyder.jpg);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 65px;
+    
+}
+
+header h1{
+    font-size: 50px;
+    color: #464748;
+    font-family: 'Regular' ;
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+}
+
+header h1::after{
+    content: '';
+    width: 100px;
+    height: 53px;
+    background: #d16a3a;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    z-index: -1;
+    
+}
+
+
+
+
+header p{
+    font-size: 16px;
+    color: #464748;
+    max-width: 331px;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+header button{
+     color: white;
+    font-size: 16px;
+    background: #d16a3a;
+    border: none;
+    padding: 10px 61px;
+    border-radius: 50px;
+    margin-top: 45px;
+    box-shadow: 0 0 15px 7px #dadada;
+    cursor: pointer;
+    transition: 0.5s; 
+    
+}
+
+header button:hover{
+    box-shadow: 0 0 0 0 #dadada;
+}
+
+
+
+
+/* main start */
+/* *********************************************** */
+
+
+main{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    
+    
+}
+
+
+main .section-top .top-box{
+    background-color: #ffff;
+    padding: 47px 17px 22px 17px;
+    width: 255px;
+    border-radius: 10px;
+   /*  display: flex; */
+    text-align: center;
+}
+
+.section-top h2{
+    font-size: 20px;
+    color: #d16a3a;
+    font-weight: 900;
+    
+    
+}
+
+.section-top .top-box i{
+    font-size: 115px;
+    color: #d16a3a;
+    margin-top:70px;
+    
+}
+
+.section-top .top-box button{
+    color: white;
+    font-size: 16px;
+    background: #d16a3a;
+    border: none;
+    padding: 10px 61px;
+    border-radius: 50px;
+    margin-top: 45px;
+    box-shadow: 0 0 15px 7px #dadada;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+
+.section-top .top-box button:hover{
+    box-shadow: 0 0 0 0 #dadada;
+}
+
+
+main .section-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+
+main .section-end .end-left{
+    width: 825px;
+    
+}
+
+.section-end h3{
+    color: #d16a3a;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+    
+}
+
+
+
+.section-end .end-left p{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 14px;
+    color: #545454;
+    font-size: 16px;
+    
+}
+
+
+.section-end .end-right{
+    width: 254px;
+    
+}
+
+.section-end .end-right .end-box{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+    
+}
+
+.section-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    
+}
+
+.section-end .end-right .end-text h4{
+    font-size: 13px;
+    color: #323232;
+    
+}
+
+.section-end .end-right .end-text p{
+    font-size: 13px;
+    color: #5f5f5f;
+    margin-top: 7px;
+    
+    
+}
+
+.section-end .end-text{
+    margin-left: 15px;
+    
+}
+
+/* main end */
+/* ************************************ */
+
+footer{
+    padding: 51px 0;
+    background: #d16a3a;
+    margin-top: 47px;
+    
+}
+
+footer h5{
+    width: 1110px;
+    margin: auto;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Regular';
+}
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d16a3a;
+    padding: 50px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 5;
+    
+}
+
+nav img{
+    width: 50px;
+    transition: 0.5s;
+    
+}
+
+nav:hover .img{
+    width: 100px;
+    
+}
+
+
+nav:hover{
+    width: 300px;
+    
+}
+
+
+
+
+
+nav ul a i{
+    color: #fff;
+    font-size: 38px;
+    
+}
+
+nav ul a span{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 25px;
+    width: 250px;
+    
+}
+
+nav ul a{
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+}
